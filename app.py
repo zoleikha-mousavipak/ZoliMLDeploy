@@ -9,7 +9,7 @@ from sklearn.svm import SVC
 from sklearn.ensemble import RandomForestClassifier
 
 # Set the title of the dashboard
-st.title("Dashboard & Machine Learning Classification")
+st.title("Zoli Dashboard & Machine Learning Classification")
 
 # File uploader widget for CSV and Excel files
 uploaded_file = st.file_uploader("Upload your CSV or Excel file", type=["csv", "xlsx"])
